@@ -16,7 +16,7 @@ import { useToast } from "@/hooks/use-toast";
 import heroImage from "@assets/generated_images/modern_interior_with_blueprints.png";
 import auctionImage from "@assets/generated_images/real_estate_auction_concept.png";
 import renovationImage from "@assets/generated_images/home_renovation_concept.png";
-import profileImage from "@assets/generated_images/professional_consultant_portrait.png";
+import profileImage from "@assets/expert_profile.jpeg";
 
 const contactSchema = z.object({
   name: z.string().min(2, "이름을 입력해주세요."),
