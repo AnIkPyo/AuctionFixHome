@@ -267,7 +267,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">전화 문의</h3>
-                    <p className="text-slate-400">010-1234-5678</p>
+                    <p className="text-slate-400">010-3057-9980</p>
                     <p className="text-xs text-slate-500 mt-1">평일 09:00 - 18:00</p>
                   </div>
                 </div>
@@ -278,7 +278,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">오시는 길</h3>
-                    <p className="text-slate-400">서울시 강남구 테헤란로 123, 집라이프 401호</p>
+                    <p className="text-slate-400">서울시 구로구 오류동360번지 집라이프 213호</p>
                   </div>
                 </div>
 
@@ -288,7 +288,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">이메일</h3>
-                    <p className="text-slate-400">contact@zip-life.kr</p>
+                    <p className="text-slate-400">anik330@naver.com</p>
                   </div>
                 </div>
               </div>

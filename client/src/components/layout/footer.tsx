@@ -34,15 +34,15 @@ export function Footer() {
             <div className="space-y-3 text-sm text-slate-400">
               <div className="flex items-center gap-3">
                 <Phone className="h-4 w-4 text-accent" />
-                <span>010-1234-5678</span>
+                <span>010-3057-9980</span>
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-accent" />
-                <span>contact@zip-life.kr</span>
+                <span>anik330@naver.com</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-accent" />
-                <span>서울시 강남구 테헤란로 123</span>
+                <span>서울시 구로구 오류동360번지 집라이프 213호</span>
               </div>
             </div>
           </div>
