@@ -9,11 +9,11 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2 font-serif font-bold text-xl text-white">
               <Building2 className="h-6 w-6 text-accent" />
-              <span>바른경매 & 홈케어</span>
+              <span>집라이프</span>
             </div>
             <p className="text-sm text-slate-400 leading-relaxed">
-              부동산 경매 컨설팅부터 낙찰 후 인테리어까지.<br />
-              당신의 소중한 자산을 위한 원스톱 전문가 서비스를 제공합니다.
+              경매전문 인테리어.<br />
+              부동산 경매 컨설팅부터 낙찰 후 인테리어까지 원스톱으로 해결해드립니다.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export function Footer() {
               </div>
               <div className="flex items-center gap-3">
                 <Mail className="h-4 w-4 text-accent" />
-                <span>contact@bareun-home.kr</span>
+                <span>contact@zip-life.kr</span>
               </div>
               <div className="flex items-center gap-3">
                 <MapPin className="h-4 w-4 text-accent" />
@@ -49,7 +49,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-          <p>&copy; {new Date().getFullYear()} 바른경매 & 홈케어. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} 집라이프. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -67,12 +67,12 @@ export default function Home() {
             className="max-w-3xl mx-auto md:mx-0"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold text-white mb-6 leading-tight">
-              <span className="text-accent">경매</span>부터 <span className="text-accent">인테리어</span>까지<br />
-              한 번에 해결하세요.
+              <span className="text-accent">경매전문</span> 인테리어<br />
+              <span className="text-accent">집라이프</span>입니다.
             </h1>
             <p className="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl leading-relaxed">
-              복잡한 부동산 경매 권리분석과 낙찰 후 골치 아픈 수리 문제.<br className="hidden md:block" />
-              전문가에게 맡기고 내 집 마련의 꿈만 꾸세요. 원스톱 솔루션을 제공합니다.
+              복잡한 경매 권리분석부터 낙찰 후 인테리어까지.<br className="hidden md:block" />
+              경매 물건의 가치를 높이는 최고의 파트너가 되어드리겠습니다.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <Button size="lg" className="text-lg px-8 h-14 bg-accent hover:bg-accent/90 text-slate-900 font-semibold" asChild>
@@ -90,8 +90,8 @@ export default function Home() {
       <section className="py-24 bg-white">
         <div className="container px-4 mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">왜 바른경매 & 홈케어인가요?</h2>
-            <p className="text-slate-600 max-w-2xl mx-auto">경매 컨설팅 따로, 인테리어 업체 따로... 번거로우셨죠? <br />이제 한 곳에서 모든 것을 해결하세요.</p>
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-slate-900 mb-4">왜 집라이프인가요?</h2>
+            <p className="text-slate-600 max-w-2xl mx-auto">경매 컨설팅 따로, 인테리어 업체 따로... 번거로우셨죠? <br />이제 집라이프에서 모든 것을 해결하세요.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -225,7 +225,7 @@ export default function Home() {
                 "고객님의 자산을 내 것처럼 소중하게."
               </h2>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                안녕하세요. 바른경매 & 홈케어 대표입니다. <br />
+                안녕하세요. 집라이프 대표입니다. <br />
                 수많은 경매 현장과 공사 현장을 누비며 쌓은 노하우로,
                 고객님께 가장 안전하고 확실한 부동산 투자의 길을 안내해 드립니다.
               </p>
@@ -278,7 +278,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">오시는 길</h3>
-                    <p className="text-slate-400">서울시 강남구 테헤란로 123, 바른빌딩 401호</p>
+                    <p className="text-slate-400">서울시 강남구 테헤란로 123, 집라이프 401호</p>
                   </div>
                 </div>
 
@@ -288,7 +288,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h3 className="font-bold text-lg mb-1">이메일</h3>
-                    <p className="text-slate-400">contact@bareun-home.kr</p>
+                    <p className="text-slate-400">contact@zip-life.kr</p>
                   </div>
                 </div>
               </div>

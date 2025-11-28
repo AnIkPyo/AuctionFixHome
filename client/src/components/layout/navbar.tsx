@@ -20,7 +20,7 @@ export function Navbar() {
         <Link href="/">
           <a className="flex items-center gap-2 font-serif font-bold text-xl text-primary hover:opacity-80 transition-opacity">
             <Building2 className="h-6 w-6 text-accent" />
-            <span>바른경매 & 홈케어</span>
+            <span>집라이프</span>
           </a>
         </Link>
 
