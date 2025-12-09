@@ -262,66 +262,106 @@ export default function Home() {
           </div>
         </div>
       </section>
-      {/* ---- ZIPLIFE APP HUB Section ---- */}
-      <section className="py-20 text-center bg-slate-100 rounded-xl my-16">
-        <h2 className="text-4xl font-bold mb-10 text-slate-800">
-          📌 ZIPLIFE App Hub
-        </h2>
-        <p className="text-lg text-slate-600 mb-8">
-          ZIPLIFE에서 제공하는 다양한 앱과 서비스를 한 곳에서 이용하세요.
-        </p>
+      {/* ---- ZIPLIFE APP HUB Section (톤 다운 버전) ---- */}
+      <section className="py-16">
+        <div className="max-w-3xl mx-auto rounded-2xl border border-slate-200 bg-white/80 backdrop-blur-sm px-6 py-10 shadow-sm">
+          <h2 className="text-2xl md:text-3xl font-semibold text-slate-900 mb-2">
+            ZIPLIFE 앱 허브
+          </h2>
+          <p className="text-sm md:text-base text-slate-500 mb-6">
+            ZIPLIFE에서 실험 중인 앱들을 한 곳에서 모아둔 페이지입니다. 필요한
+            것만 골라 가볍게 써보세요.
+          </p>
 
-        <div className="flex flex-col gap-5 max-w-md mx-auto">
-          {/* 1. MBTI 성격 테스트 */}
-          <a href="YOUR_LINK_HERE" target="_blank">
-            <button className="w-full py-4 rounded-lg bg-indigo-600 hover:bg-indigo-700 text-white text-lg">
-              🧠 MBTI 성격 테스트
-            </button>
-          </a>
+          <div className="space-y-3">
+            {/* 1. MBTI 성격 테스트 */}
+            <a href="YOUR_MBPI_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🧠 MBTI 성격 테스트</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
 
-          {/* 2. 민주시민의식 자가진단 */}
-          <a href="YOUR_LINK_HERE" target="_blank">
-            <button className="w-full py-4 rounded-lg bg-rose-600 hover:bg-rose-700 text-white text-lg">
-              ✊ 민주시민 의식 자가진단
-            </button>
-          </a>
+            {/* 2. 민주시민 의식 자가진단 */}
+            <a href="YOUR_CIVIC_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>✊ 민주시민 의식 자가진단</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
 
-          {/* 3. 매일 5문장 영어회화 */}
-          <a href="YOUR_LINK_HERE" target="_blank">
-            <button className="w-full py-4 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-lg">
-              🗣 매일 5문장 영어회화
-            </button>
-          </a>
+            {/* 3. 매일 5문장 영어회화 */}
+            <a href="YOUR_5SENTENCE_EN_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🗣 매일 5문장 영어회화</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
 
-          {/* 4. 웹툰 앱 */}
-          <a href="YOUR_LINK_HERE" target="_blank">
-            <button className="w-full py-4 rounded-lg bg-yellow-500 hover:bg-yellow-600 text-white text-lg">
-              🎨 웹툰 스튜디오
-            </button>
-          </a>
+            {/* 4. 웹툰 스튜디오 */}
+            <a href="YOUR_WEBTOON_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🎨 웹툰 스튜디오</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
 
-          {/* 5. 핑퐁 코치 */}
-          <a
-            href="https://ping-pong-coach--anik33033.replit.app"
-            target="_blank"
-          >
-            <button className="w-full py-4 rounded-lg bg-green-600 hover:bg-green-700 text-white text-lg">
-              🏓 핑퐁 코치
-            </button>
-          </a>
+            {/* 5. 마음의 정원 */}
+            <a href="YOUR_HEART_GARDEN_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🌿 마음의 정원</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
 
-          {/* 6. 벽돌깨기 게임 */}
-          <a href="YOUR_LINK_HERE" target="_blank">
-            <button className="w-full py-4 rounded-lg bg-orange-600 hover:bg-orange-700 text-white text-lg">
-              🎮 벽돌깨기 게임
-            </button>
-          </a>
+            {/* 6. 오늘의 영양 요약 */}
+            <a href="YOUR_NUTRITION_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🥗 오늘의 영양 요약</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
+
+            {/* 7. 가상 피팅룸 */}
+            <a href="YOUR_VFITTING_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🪞 가상 피팅룸</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
+
+            {/* 8. 핑퐁 코치 */}
+            <a
+              href="https://ping-pong-coach--anik33033.replit.app"
+              target="_blank"
+            >
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🏓 핑퐁 코치</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
+
+            {/* 9. 벽돌깨기 게임 */}
+            <a href="YOUR_BRICK_BREAKER_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🎮 벽돌깨기 게임</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
+
+            {/* 10. 두더지 잡기 */}
+            <a href="YOUR_MOLE_GAME_URL" target="_blank">
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span>🐹 두더지 잡기</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
+          </div>
+
+          <p className="mt-4 text-xs text-slate-400">
+            * 링크가 없는 앱은 개발 준비 중입니다.
+          </p>
         </div>
-
-        {/* 상태 안내 */}
-        <p className="text-sm text-slate-400 mt-6">
-          * 링크 없는 앱은 개발 준비 중입니다.
-        </p>
       </section>
       {/* About Expert */}
       <section id="about" className="py-24 bg-white">
