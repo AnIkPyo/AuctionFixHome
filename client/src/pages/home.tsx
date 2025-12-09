@@ -275,7 +275,10 @@ export default function Home() {
 
           <div className="space-y-3">
             {/* 1. MBTI 성격 테스트 */}
-            <a href="YOUR_MBPI_URL" target="_blank">
+            <a
+              href="https://mbti-insight--anik33033.replit.app"
+              target="_blank"
+            >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>🧠 MBTI 성격 테스트</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
