@@ -295,7 +295,7 @@ export default function Home() {
 
             {/* 3. 매일 5문장 영어회화 */}
             <a
-              href="https://daily-talk-english-anik33033.replit.app"
+              href="https://daily-talk-english--anik33033.replit.app"
               target="_blank"
             >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
