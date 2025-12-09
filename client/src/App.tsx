@@ -5,7 +5,17 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
-
+<div
+  style={{
+    background: "red",
+    color: "white",
+    padding: "16px",
+    fontSize: "24px",
+    textAlign: "center",
+  }}
+>
+  🔥 TEST FROM APP.TSX 🔥
+</div>;
 function Router() {
   return (
     <Switch>
