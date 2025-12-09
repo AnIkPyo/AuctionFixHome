@@ -305,7 +305,10 @@ export default function Home() {
             </a>
 
             {/* 4. 웹툰 스튜디오 */}
-            <a href="YOUR_WEBTOON_URL" target="_blank">
+            <a
+              href="https://webtoon-romance-thriller--anik33033.replit.app"
+              target="_blank"
+            >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>🎨 웹툰 스튜디오</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
@@ -320,7 +323,7 @@ export default function Home() {
               </button>
             </a>
 
-            {/* 6. 오늘의 영양 요약 */}
+            {/* 6. 오늘의 영양 관리 */}
             <a href="YOUR_NUTRITION_URL" target="_blank">
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>🥗 오늘의 영양 요약</span>
@@ -348,7 +351,10 @@ export default function Home() {
             </a>
 
             {/* 9. 벽돌깨기 게임 */}
-            <a href="YOUR_BRICK_BREAKER_URL" target="_blank">
+            <a
+              href="https://byeogdolggaegigeim--anik33033.replit.app"
+              target="_blank"
+            >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>🎮 벽돌깨기 게임</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
