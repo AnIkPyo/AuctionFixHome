@@ -341,10 +341,10 @@ export default function Home() {
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
             </a>
-
+            
             {/* 7. 가상 피팅룸 */}
             <a
-              href="https://aistudio.google.com/apps/drive/1F7U2YnyneN88RBnYE_4bJ4-2gc-6SyjC?showPreview=true&showAssistant=true"
+              href="https://stylematch-ai-480199204358.us-west1.run.app"
               target="_blank"
             >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
