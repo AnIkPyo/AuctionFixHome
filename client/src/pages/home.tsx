@@ -316,20 +316,19 @@ export default function Home() {
             </a>
 
             {/* 5. 마음의 정원 */}
-            <div className="mt-4 space-y-1">
-              {/* 1) 새 창으로 전체 화면 열기 버튼 */}
-              <a
-                href="https://mind-garden-480199204358.us-west1.run.app/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                  <span className="text-sm">🌱 마음의 정원</span>
-                  <span className="text-xs text-slate-400">바로가기 →</span>
-                </button>
-              </a>
-              {/* 2) 페이지 안에서 바로 보이는 마음의 정원 앱 */}
-            </div>
+
+            {/* 1) 새 창으로 전체 화면 열기 버튼 */}
+            <a
+              href="https://mind-garden-480199204358.us-west1.run.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                <span className="text-sm">🌱 마음의 정원</span>
+                <span className="text-xs text-slate-400">바로가기 →</span>
+              </button>
+            </a>
+            {/* 2) 페이지 안에서 바로 보이는 마음의 정원 앱 */}
 
             {/* 6. 오늘의 영양 관리 */}
             <a
