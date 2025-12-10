@@ -316,26 +316,40 @@ export default function Home() {
             </a>
 
             {/* 5. 마음의 정원 */}
-            <a href="YOUR_HEART_GARDEN_URL" target="_blank">
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🌿 마음의 정원</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
+            <div className="mt-4 space-y-4">
+              {/* 1) 새 창으로 전체 화면 열기 버튼 */}
+              <a
+                href="https://mind-garden-480199204358.us-west1.run.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
+                  <span className="text-sm">🌱 마음의 정원</span>
+                  <span className="text-xs text-slate-400">PC 전용 →</span>
+                </button>
+              </a>
+              {/* 2) 페이지 안에서 바로 보이는 마음의 정원 앱 */}
+            </div>
 
             {/* 6. 오늘의 영양 관리 */}
-            <a href="YOUR_NUTRITION_URL" target="_blank">
+            <a
+              href="https://aistudio.google.com/apps/drive/1lQOl9uvfO2ieQ8DluyTPNq7qjMrVe6uQ?showPreview=true&showAssistant=true"
+              target="_blank"
+            >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🥗 오늘의 영양 요약</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
+                <span>🥗 오늘의 영양 관리</span>
+                <span className="text-xs text-slate-400">PC 전용 →</span>
               </button>
             </a>
 
             {/* 7. 가상 피팅룸 */}
-            <a href="YOUR_VFITTING_URL" target="_blank">
+            <a
+              href="https://aistudio.google.com/apps/drive/1F7U2YnyneN88RBnYE_4bJ4-2gc-6SyjC?showPreview=true&showAssistant=true"
+              target="_blank"
+            >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>🪞 가상 피팅룸</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
+                <span className="text-xs text-slate-400">PC 전용 →</span>
               </button>
             </a>
 
@@ -362,10 +376,13 @@ export default function Home() {
             </a>
 
             {/* 10. 두더지 잡기 */}
-            <a href="YOUR_MOLE_GAME_URL" target="_blank">
+            <a
+              href="https://aistudio.google.com/apps/drive/1o6wTqB5doxms7TrB31vihkfXjH-Ub0E7?showPreview=true&showAssistant=true"
+              target="_blank"
+            >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>🐹 두더지 잡기</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
+                <span className="text-xs text-slate-400">PC 전용 →</span>
               </button>
             </a>
           </div>
