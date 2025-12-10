@@ -286,7 +286,7 @@ export default function Home() {
             </a>
 
             {/* 2. 민주시민 의식 자가진단 */}
-            <a href="YOUR_CIVIC_URL" target="_blank">
+            <a href="https://civic-gauge--anik33033.replit.app" target="_blank">
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
                 <span>✊ 민주시민 의식 자가진단</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
