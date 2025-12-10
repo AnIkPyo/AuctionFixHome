@@ -316,7 +316,7 @@ export default function Home() {
             </a>
 
             {/* 5. 마음의 정원 */}
-            <div className="mt-4 space-y-4">
+            <div className="mt-4 space-y-1">
               {/* 1) 새 창으로 전체 화면 열기 버튼 */}
               <a
                 href="https://mind-garden-480199204358.us-west1.run.app/"
