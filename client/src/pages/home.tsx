@@ -115,6 +115,87 @@ export default function Home() {
         </div>
       </section>
 
+
+      {/* 여기부터 새로 추가한 상담 폼 섹션 */}
+      <section id="contact" className="py-16 bg-slate-50">
+        <div className="container px-4 mx-auto max-w-xl">
+          <h2 className="text-2xl font-bold mb-4 text-slate-900">
+            무료 상담 신청
+          </h2>
+          <p className="text-sm text-slate-600 mb-6">
+            부동산 경매, 집수리, 리모델링 상담을 원하시면
+            아래 내용을 간단히 남겨주세요. 확인 후 연락드릴게요.
+          </p>
+
+          <Form {...form}>
+            <form
+              onSubmit={form.handleSubmit(onSubmit)}
+              className="space-y-4 bg-white p-6 rounded-xl shadow"
+            >
+              <FormField
+                control={form.control}
+                name="name"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>이름</FormLabel>
+                    <FormControl>
+                      <Input
+                        placeholder="이름을 입력하세요"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="phone"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>전화번호</FormLabel>
+                    <FormControl>
+                      <Input
+                        placeholder="010-0000-0000"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="message"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>상담 내용</FormLabel>
+                    <FormControl>
+                      <Textarea
+                        placeholder="상담하고 싶은 내용을 적어주세요."
+                        className="h-32"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <Button type="submit" className="w-full bg-accent">
+                상담 신청하기
+              </Button>
+            </form>
+          </Form>
+        </div>
+      </section>
+      {/* 여기까지 상담 폼 섹션 */}
+      {/* 🔼 여기까지 추가 🔼 */}
+
+      {/* Features / Why Us */}
+      <section className="py-24 bg-white">
       {/* Features / Why Us */}
       <section className="py-24 bg-white">
         <div className="container px-4 mx-auto">
@@ -324,7 +405,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span className="text-sm">🌱 마음의 정원</span>
+                <span className="text-base">🌱 마음의 정원</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
             </a>
@@ -553,8 +634,73 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
-      <Footer />
-    </div>
-  );
-}
+        </section>
+
+            {/* 무료 상담 신청 섹션 */}
+            <section id="contact" className="py-16 bg-slate-50">
+              <div className="container px-4 mx-auto max-w-xl">
+                <h2 className="text-2xl font-bold mb-4 text-slate-900">
+                  무료 상담 신청
+                </h2>
+
+                <p className="text-sm text-slate-600 mb-6">
+                  경매, 집수리, 리모델링 상담을 원하시면 아래 내용을 간단히 남겨주세요. 확인 후 연락드릴게요.
+                </p>
+
+                <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4 bg-white p-6 rounded-xl shadow">
+
+                  {/* 이름 */}
+                  <FormField
+                    control={form.control}
+                    name="name"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>이름</FormLabel>
+                        <FormControl>
+                          <Input placeholder="이름을 입력해주세요" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  {/* 전화번호 */}
+                  <FormField
+                    control={form.control}
+                    name="phone"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>전화번호</FormLabel>
+                        <FormControl>
+                          <Input placeholder="010-0000-0000" {...field} />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  {/* 상담 내용 */}
+                  <FormField
+                    control={form.control}
+                    name="message"
+                    render={({ field }) => (
+                      <FormItem>
+                        <FormLabel>상담 내용</FormLabel>
+                        <FormControl>
+                          <Textarea
+                            placeholder="상담하고 싶은 내용을 적어주세요."
+                            className="h-32"
+                            {...field}
+                          />
+                        </FormControl>
+                        <FormMessage />
+                      </FormItem>
+                    )}
+                  />
+
+                  <Button type="submit" className="w-full bg-accent">
+                    상담 신청하기
+                  </Button>
+                </form>
+              </div>
+            </section>
