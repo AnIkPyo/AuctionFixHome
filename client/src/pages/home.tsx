@@ -324,7 +324,7 @@ export default function Home() {
               rel="noopener noreferrer"
             >
               <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span className="text-sm">🌱 마음의 정원</span>
+                <span className="text-smmd">🌱 마음의 정원</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
             </a>
