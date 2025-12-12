@@ -1,6 +1,8 @@
 {
   "name": "Ziplife",
   "short_name": "Ziplife",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -15,7 +17,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#fcfafa",
-  "background_color": "#d7cfcf",
+ "theme_color": "#0f172a",
+ "background_color": "#0f172a",
   "display": "standalone"
 }
