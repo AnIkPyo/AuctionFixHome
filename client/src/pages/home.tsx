@@ -418,15 +418,29 @@ export default function Home() {
                 완벽하게 마무리되어야 진정한 투자의 완성입니다. 복잡하고 어려운
                 과정은 제가 맡겠습니다. 고객님은 결과만 확인하세요.
               </p>
-              <div className="grid grid-cols-2 gap-6">
-                <div>
-                  <h4 className="text-3xl font-bold text-accent mb-1">500+</h4>
-                  <p className="text-sm text-slate-500">경매 컨설팅 건수</p>
-                </div>
-                <div>
-                  <h4 className="text-3xl font-bold text-accent mb-1">200+</h4>
-                  <p className="text-sm text-slate-500">인테리어 시공 건수</p>
-                </div>
+              <div className="mt-6">
+                <ul className="space-y-3 text-slate-700">
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent font-bold leading-none mt-1">
+                      ✓
+                    </span>
+                    <span>경매 물건 사전 검토 경험</span>
+                  </li>
+
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent font-bold leading-none mt-1">
+                      ✓
+                    </span>
+                    <span>낙찰 후 명도·수리 연계</span>
+                  </li>
+
+                  <li className="flex items-start gap-2">
+                    <span className="text-accent font-bold leading-none mt-1">
+                      ✓
+                    </span>
+                    <span>소규모 수리 중심의 실무 대응</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
