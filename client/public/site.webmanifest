@@ -2,7 +2,10 @@
   "name": "Ziplife",
   "short_name": "Ziplife",
   "start_url": "/",
-  "display": "standalone"
+  "display": "standalone",
+  "theme_color": "#e0dcdc",
+  "background_color": "#d7d2d2",
+  "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
@@ -15,8 +18,5 @@
       "type": "image/png",
       "purpose": "maskable"
     }
-  ],
-  "theme_color": "#e0dcdc",
-  "background_color": "#d7d2d2",
-  "display": "standalone"
+  ]
 }
