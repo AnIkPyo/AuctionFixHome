@@ -1,7 +1,8 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
-  "icons": [
+  "name": "Ziplife",
+  "short_name": "Ziplife",
+  "start_url": "/",
+  "display": "standalone"
     {
       "src": "/web-app-manifest-192x192.png",
       "sizes": "192x192",
