@@ -274,48 +274,7 @@ export default function Home() {
           </p>
 
           <div className="space-y-3">
-            {/*
-            {/* 1. MBTI 성격 테스트 */}
-            <a
-              href="https://mbti-insight--anik33033.replit.app"
-              target="_blank"
-            >
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🧠 MBTI 성격 테스트</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
-
-            {/* 2. 민주시민 의식 자가진단 */}
-            <a href="https://civic-gauge--anik33033.replit.app" target="_blank">
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>✊ 민주시민 의식 자가진단</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
-
-            {/* 3. 매일 5문장 영어회화 */}
-            <a
-              href="https://daily-talk-english--anik33033.replit.app"
-              target="_blank"
-            >
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🗣 매일 5문장 영어회화</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
-
-            {/* 4. 웹툰 스튜디오 */}
-            <a
-              href="https://webtoon-romance-thriller--anik33033.replit.app"
-              target="_blank"
-            >
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🎨 웹툰 스튜디오</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
-*/}
+           
             {/* 5. 마음의 정원 */}
 
             {/* 1) 새 창으로 전체 화면 열기 버튼 */}
@@ -352,29 +311,24 @@ export default function Home() {
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
             </a>
-            {/*
-            {/* 8. 핑퐁 코치 */}
-            <a
-              href="https://ping-pong-coach--anik33033.replit.app"
-              target="_blank"
-            >
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🏓 핑퐁 코치</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
+          {/*
+           8. 핑퐁 코치 
+           <a href="https://ping-pong-coach--anik33033.replit.app" target="_blank">
+            <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm">
+             <span>🏓 핑퐁 코치</span>
+             <span className="text-xs text-slate-400">바로가기 →</span>
+            </button>
+           </a>
 
-            {/* 9. 벽돌깨기 게임 */}
-            <a
-              href="https://byeogdolggaegigeim--anik33033.replit.app"
-              target="_blank"
-            >
-              <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm md:text-base text-slate-800 flex items-center justify-between">
-                <span>🎮 벽돌깨기 게임</span>
-                <span className="text-xs text-slate-400">바로가기 →</span>
-              </button>
-            </a>
-*/}
+            9. 벽돌깨기 게임
+           <a href="https://byeogdolggaegigeim--anik33033.replit.app" target="_blank">
+             <button className="w-full py-3 rounded-xl border border-slate-300 bg-slate-50 hover:bg-slate-100 text-sm">
+               <span>🧱 벽돌깨기 게임</span>
+               <span className="text-xs text-slate-400">바로가기 →</span>
+             </button>
+           </a>
+         */}
+
             {/* 10. 두더지 잡기 */}
             <a
               href="https://whack-a-mole-480199204358.us-west1.run.app"
