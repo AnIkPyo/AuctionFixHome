@@ -274,7 +274,8 @@ export default function Home() {
           </p>
 
           <div className="space-y-3">
-            {/*{/* 1. MBTI 성격 테스트 */}
+            {/*
+            {/* 1. MBTI 성격 테스트 */}
             <a
               href="https://mbti-insight--anik33033.replit.app"
               target="_blank"
@@ -313,8 +314,8 @@ export default function Home() {
                 <span>🎨 웹툰 스튜디오</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
-            </a>*/}
-
+            </a>
+*/}
             {/* 5. 마음의 정원 */}
 
             {/* 1) 새 창으로 전체 화면 열기 버튼 */}
@@ -351,8 +352,8 @@ export default function Home() {
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
             </a>
-
-            {/*{/* 8. 핑퐁 코치 */}
+            {/*
+            {/* 8. 핑퐁 코치 */}
             <a
               href="https://ping-pong-coach--anik33033.replit.app"
               target="_blank"
@@ -372,8 +373,8 @@ export default function Home() {
                 <span>🎮 벽돌깨기 게임</span>
                 <span className="text-xs text-slate-400">바로가기 →</span>
               </button>
-            </a>*/}
-
+            </a>
+*/}
             {/* 10. 두더지 잡기 */}
             <a
               href="https://whack-a-mole-480199204358.us-west1.run.app"
